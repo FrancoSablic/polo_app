@@ -1,6 +1,6 @@
 import datetime
 
-from django.utils.timezone import timezone
+from django.utils.timezone import *
 from django.db import models
 from django.db.models.fields import CharField
 
@@ -59,7 +59,7 @@ class Producto(models.Model):
     imagen= models.ImageField(upload_to= "static/img", max_length= 200, height_field=None, width_field=None,null=True, blank= False)
     precio = models.DecimalField(max_digits= 5, decimal_places= 2)
     categoria = models.ForeignKey("Categoria", on_delete=models.CASCADE, default=1, related_name="categoria_producto")
-    imagen_producto = models.ImageField(upload_to='img/')
+    imagen_producto = models.ImageField(upload_to='img/', default=1)
 
     def __str__(self):
         return self.nombre

@@ -16,3 +16,6 @@ def detalle_productos(request):
 def pedir_turnos(request):
     return render(request,'polo_app/pedir_turnos.html')
 
+def contacto(request):
+    return render(request,'polo_app/contacto.html')
+
