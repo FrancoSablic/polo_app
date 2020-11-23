@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(3, 120,174);
+  background-color: rgba(3, 120, 174, 0.9);
   font-family: 'Raleway';
 }
 
@@ -89,7 +89,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 800;
 }
 
@@ -103,7 +103,7 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(8, 166, 240, 0.4);
+    color: rgba(8, 166, 240, 0.9);
     text-decoration: underline;
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
